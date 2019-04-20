@@ -1,0 +1,17 @@
+spring:
+ jpa:
+  hibernate: 
+   ddl-auto: update
+      
+ datasource:
+  url: jdbc:mysql://localhost:3306/burger_builder
+  username: root
+  password: Golomt123;
+  initialization-mode: always
+  platform: org.hibernate.dialect.MySQL5Dialect
+ 
+apiUrl: /api/users/**
+jwtSecretKey: SecretKeyToGenJWTs
+tokePrefix: Bearer 
+headerString: Authorization
+expirationTime: 300_000     

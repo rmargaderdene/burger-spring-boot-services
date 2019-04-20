@@ -1,15 +1,18 @@
 package com.burger.domain;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
+import javax.persistence.Table;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -23,21 +26,21 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @NoArgsConstructor(access = AccessLevel.PRIVATE, force = true)
 @Entity
-public class Ingredient {
-
+@Table(name = "Orders")
+public class Order {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private final Long id;
 
-	@NotNull
-	@Size(min = 3, message = "Name must be at least 3 characters long")
-	private String name;
+	@ManyToOne
+	private User user;
+
+	@ManyToMany(targetEntity = Ingredient.class)
+	@Size(min = 1, message = "You must choose at least 1 ingredient")
+	private List<Ingredient> ingredients;
 
 	@NotBlank(message = "Price is required")
 	private double price;
-
-	@NotBlank(message = "Init number is required")
-	private double initNumber;
 
 	@JsonFormat(pattern = "yyyy-mm-dd")
 	private Date createdDate;
