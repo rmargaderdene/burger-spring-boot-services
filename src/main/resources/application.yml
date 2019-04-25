@@ -1,17 +1,21 @@
 spring:
  jpa:
   hibernate: 
-   ddl-auto: update
+   ddl-auto: create-drop
       
  datasource:
   url: jdbc:mysql://localhost:3306/burger_builder
   username: root
   password: Golomt123;
   initialization-mode: always
-  platform: org.hibernate.dialect.MySQL5Dialect
- 
-apiUrl: /api/users/**
+  platform: mysql
+  
+server:
+  port: 8443
+  
+userApiUrl: /api/users/**
+publicApiUrl: /api/public/**
 jwtSecretKey: SecretKeyToGenJWTs
-tokePrefix: Bearer 
+tokePrefix: 
 headerString: Authorization
 expirationTime: 300_000     

@@ -9,6 +9,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
 
 import com.burger.domain.User;
+import com.burger.responses.JWTLoginSuccessResponse;
 import com.burger.utils.YAMLConfig;
 
 import io.jsonwebtoken.Claims;
@@ -25,7 +26,7 @@ public class JwtTokenProvider {
 	@Autowired
 	private YAMLConfig config;
 
-	public String generateToken(Authentication authentication) {
+	public JWTLoginSuccessResponse generateToken(Authentication authentication) {
 		User user = (User) authentication.getPrincipal();
 		Date now = new Date(System.currentTimeMillis());
 
@@ -36,10 +37,11 @@ public class JwtTokenProvider {
 		Map<String, Object> claims = new HashMap<>();
 		claims.put("id", (Long.toString(user.getId())));
 		claims.put("username", user.getUsername());
-		claims.put("fullname", user.getFullname());
+		claims.put("firstname", user.getFirstname());
 
-		return Jwts.builder().setSubject(userId).setClaims(claims).setIssuedAt(now).setExpiration(expiryDate)
-				.signWith(SignatureAlgorithm.HS512, config.getJwtSecretKey()).compact();
+		return new JWTLoginSuccessResponse(true, Jwts.builder().setSubject(userId).setClaims(claims).setIssuedAt(now)
+				.setExpiration(expiryDate).signWith(SignatureAlgorithm.HS512, config.getJwtSecretKey()).compact(),
+				expiryDate);
 	}
 
 	// Validate the token

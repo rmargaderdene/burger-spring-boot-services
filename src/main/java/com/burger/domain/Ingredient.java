@@ -40,18 +40,18 @@ public class Ingredient {
 	private double initNumber;
 
 	@JsonFormat(pattern = "yyyy-mm-dd")
-	private Date createdDate;
+	private Date createdAt;
 
 	@JsonFormat(pattern = "yyyy-mm-dd")
-	private Date updatedDate;
+	private Date updatedAt;
 
 	@PrePersist
 	protected void onCreate() {
-		this.createdDate = new Date();
+		this.createdAt = new Date();
 	}
 
 	@PreUpdate
 	protected void onUpdate() {
-		this.updatedDate = new Date();
+		this.updatedAt = new Date();
 	}
 }

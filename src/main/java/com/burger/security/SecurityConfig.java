@@ -23,13 +23,13 @@ import com.burger.utils.YAMLConfig;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
-	private YAMLConfig config;
-
-	@Autowired
 	private JwtAuthenticationEntryPoint unauthorizedHandler;
 
 	@Autowired
 	private CustomUserDetailsService customUserDetailsService;
+
+	@Autowired
+	private YAMLConfig config;
 
 	@Bean
 	public JwtAuthenticationFilter jwtAuthenticationFilter() {
@@ -55,8 +55,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity http) throws Exception {
 		http.cors().and().csrf().disable().exceptionHandling().authenticationEntryPoint(unauthorizedHandler).and()
 				.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and().headers()
-				.frameOptions().sameOrigin().and().authorizeRequests().antMatchers("/").permitAll()
-				.antMatchers(config.getApiUrl()).permitAll().anyRequest().authenticated();
+				.frameOptions().sameOrigin().and().authorizeRequests().antMatchers(config.getUserApiUrl()).permitAll()
+				.antMatchers(config.getPublicApiUrl()).permitAll().anyRequest().authenticated();
 
 		http.addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
 	}

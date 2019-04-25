@@ -1,7 +1,5 @@
 package com.burger.controller;
 
-import static com.burger.security.SecurityConstants.TOKEN_PREFIX;
-
 import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,6 +10,7 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,14 +18,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.burger.domain.User;
 import com.burger.requests.LoginRequest;
-import com.burger.responses.JWTLoginSuccessResponse;
 import com.burger.security.JwtTokenProvider;
 import com.burger.service.UserService;
 import com.burger.validation.MapValidationErrorService;
 import com.burger.validation.UserValidator;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping(path = "/api/users", produces = "application/json")
+@CrossOrigin(origins = "*")
+@Slf4j
 public class UserController {
 
 	@Autowired
@@ -46,22 +48,21 @@ public class UserController {
 
 	@PostMapping("/login")
 	public ResponseEntity<?> authenticateUser(@Valid @RequestBody LoginRequest loginRequest, BindingResult result) {
+		log.info("Login Request {}", loginRequest);
 		ResponseEntity<?> errorMap = mapValidationErrorService.mapValidationService(result);
 		if (errorMap != null)
 			return errorMap;
 
 		Authentication authentication = authenticationManager.authenticate(
 				new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
-
 		SecurityContextHolder.getContext().setAuthentication(authentication);
-		String jwt = TOKEN_PREFIX + tokenProvider.generateToken(authentication);
 
-		return ResponseEntity.ok(new JWTLoginSuccessResponse(true, jwt));
+		return ResponseEntity.ok(tokenProvider.generateToken(authentication));
 	}
 
 	@PostMapping("/register")
 	public ResponseEntity<?> registerUser(@Valid @RequestBody User user, BindingResult result) {
-		// Validate passwords match
+		log.info("Register Request {}", user);
 		userValidator.validate(user, result);
 
 		ResponseEntity<?> errorMap = mapValidationErrorService.mapValidationService(result);

@@ -5,14 +5,17 @@ import java.util.Collection;
 import java.util.Date;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Transient;
@@ -31,9 +34,6 @@ import lombok.Data;
 @Data
 public class User implements UserDetails {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = -6648473118085214110L;
 
 	@Id
@@ -41,11 +41,11 @@ public class User implements UserDetails {
 	private Long id;
 
 	@Email(message = "Username needs to be an email")
-	@NotBlank(message = "username is required")
+	@NotBlank(message = "Username is required")
 	@Column(unique = true)
 	private String username;
-	@NotBlank(message = "Please enter your full name")
-	private String fullname;
+	@NotBlank(message = "First name is required")
+	private String firstname;
 	@NotBlank(message = "Password field is required")
 	private String password;
 	@Transient
@@ -62,6 +62,10 @@ public class User implements UserDetails {
 	public void setUpdatedAt() {
 		this.updatedAt = new Date();
 	}
+
+	// OneToMany with Order
+	@OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "user", orphanRemoval = true)
+	private List<Order> order = new ArrayList<>();
 
 	@ManyToMany
 	@JoinTable(name = "users_roles", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))

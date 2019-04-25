@@ -11,7 +11,8 @@ import lombok.Data;
 @ConfigurationProperties
 @Data
 public class YAMLConfig {
-	private String apiUrl;
+	private String userApiUrl;
+	private String publicApiUrl;
 	private String jwtSecretKey;
 	private String tokePrefix;
 	private String headerString;
