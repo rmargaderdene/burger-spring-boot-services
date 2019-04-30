@@ -39,9 +39,10 @@ public class JwtTokenProvider {
 		claims.put("username", user.getUsername());
 		claims.put("firstname", user.getFirstname());
 
-		return new JWTLoginSuccessResponse(true, Jwts.builder().setSubject(userId).setClaims(claims).setIssuedAt(now)
-				.setExpiration(expiryDate).signWith(SignatureAlgorithm.HS512, config.getJwtSecretKey()).compact(),
-				expiryDate);
+		return new JWTLoginSuccessResponse(true,
+				Jwts.builder().setSubject(userId).setClaims(claims).setIssuedAt(now).setExpiration(expiryDate)
+						.signWith(SignatureAlgorithm.HS512, config.getJwtSecretKey()).compact(),
+				Integer.valueOf(config.getExpirationTime()));
 	}
 
 	// Validate the token

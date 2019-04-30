@@ -1,129 +1,224 @@
-2019-04-25 12:47:20,131 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 804 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 12:47:20,143 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 12:47:20,146 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 12:47:32,626 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 12:47:35,847 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 17.004 seconds (JVM running for 19.336)
-2019-04-25 12:47:59,359 INFO com.burger.controller.IngredientController [http-nio-8443-exec-1] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:07:23,725 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 280 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:07:23,729 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:07:23,731 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:07:28,461 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:07:30,144 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 6.553 seconds (JVM running for 74.889)
-2019-04-25 13:07:34,092 INFO com.burger.controller.IngredientController [http-nio-8443-exec-1] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:07:42,916 INFO com.burger.controller.IngredientController [http-nio-8443-exec-3] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:08:03,439 INFO com.burger.controller.IngredientController [http-nio-8443-exec-6] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:08:46,056 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4224 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:08:46,065 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:08:46,068 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:09:00,989 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:09:04,117 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 19.586 seconds (JVM running for 23.031)
-2019-04-25 13:09:07,740 INFO com.burger.controller.IngredientController [http-nio-8443-exec-1] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:09:17,929 INFO com.burger.controller.IngredientController [http-nio-8443-exec-4] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:09:27,732 INFO com.burger.controller.IngredientController [http-nio-8443-exec-6] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:09:27,941 INFO com.burger.controller.IngredientController [http-nio-8443-exec-9] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:09:28,106 INFO com.burger.controller.IngredientController [http-nio-8443-exec-1] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:09:28,238 INFO com.burger.controller.IngredientController [http-nio-8443-exec-3] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:10:42,317 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5724 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:10:42,328 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:10:42,331 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:10:55,475 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:10:58,848 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 17.794 seconds (JVM running for 19.958)
-2019-04-25 13:11:21,716 INFO com.burger.controller.IngredientController [http-nio-8443-exec-1] Logger IngredientController.class class com.burger.controller.IngredientController
-2019-04-25 13:17:22,316 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:17:22,367 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:17:22,369 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:17:34,108 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:17:37,083 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 15.945 seconds (JVM running for 18.784)
-2019-04-25 13:20:22,811 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:20:22,812 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:20:22,814 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:20:27,492 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:20:29,278 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 6.799 seconds (JVM running for 190.979)
-2019-04-25 13:20:39,383 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:20:39,384 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:20:39,385 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:20:43,808 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:20:45,429 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 6.198 seconds (JVM running for 207.13)
-2019-04-25 13:21:02,614 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:21:02,615 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:21:02,616 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:21:07,478 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:21:09,141 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 6.644 seconds (JVM running for 230.842)
-2019-04-25 13:22:58,768 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:22:58,769 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:22:58,770 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:23:03,481 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:23:05,234 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 6.667 seconds (JVM running for 346.936)
-2019-04-25 13:23:37,663 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:23:37,664 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:23:37,665 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:23:41,896 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:23:43,464 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 5.936 seconds (JVM running for 385.165)
-2019-04-25 13:30:42,720 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3676 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:30:42,747 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:30:42,750 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:31:07,961 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:31:13,495 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 35.328 seconds (JVM running for 43.25)
-2019-04-25 13:33:53,364 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3676 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 13:33:53,365 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 13:33:53,367 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 13:33:58,808 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 13:34:00,606 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 7.465 seconds (JVM running for 210.361)
-2019-04-25 16:00:50,490 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2756 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 16:00:50,502 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 16:00:50,504 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 16:01:08,173 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 16:01:17,351 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 28.103 seconds (JVM running for 30.65)
-2019-04-25 16:10:23,888 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4844 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 16:10:23,899 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 16:10:23,902 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 16:10:38,157 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 16:10:41,536 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.955 seconds (JVM running for 21.286)
-2019-04-25 17:26:49,280 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 7836 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 17:26:49,302 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 17:26:49,305 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 17:27:05,258 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 17:27:09,073 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 21.128 seconds (JVM running for 23.595)
-2019-04-25 17:43:41,694 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 6980 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 17:43:41,702 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 17:43:41,705 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 17:43:57,574 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 17:44:00,832 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 20.612 seconds (JVM running for 24.471)
-2019-04-25 17:44:32,873 INFO com.burger.controller.UserController [http-nio-8443-exec-6] RequestBody User User(id=null, username=margad@gmail.com, firstname=margad, password=margad, confirmPassword=margad, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 17:48:07,138 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 6476 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 17:48:07,155 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 17:48:07,157 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 17:48:19,064 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 17:48:22,192 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 16.402 seconds (JVM running for 18.953)
-2019-04-25 17:49:10,056 INFO com.burger.controller.UserController [http-nio-8443-exec-9] RequestBody User User(id=null, username=margaderdene@gmail.com, firstname=margad-erdene, password=margad123, confirmPassword=margad123, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 17:56:20,155 INFO com.burger.controller.UserController [http-nio-8443-exec-3] RequestBody User User(id=null, username=margaderdene@gmail.com, firstname=, password=margad123, confirmPassword=, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:04:46,735 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 6476 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 18:04:46,736 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 18:04:46,737 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 18:04:53,343 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 18:04:54,664 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 8.151 seconds (JVM running for 1011.425)
-2019-04-25 18:14:13,283 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4004 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 18:14:13,291 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 18:14:13,293 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 18:14:28,423 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 18:14:30,483 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.52 seconds (JVM running for 23.809)
-2019-04-25 18:26:18,510 INFO com.burger.controller.UserController [http-nio-8443-exec-6] Register Request User(id=null, username=margaderdene@gmail.com, firstname=margad, password=margad123, confirmPassword=margad1, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:27:42,335 INFO com.burger.controller.UserController [http-nio-8443-exec-9] Register Request User(id=null, username=margad@gmail.com, firstname=null, password=Golomt123, confirmPassword=Golomt12, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:27:55,848 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt12, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:29:18,455 INFO com.burger.controller.UserController [http-nio-8443-exec-8] Register Request User(id=null, username=margaderdene@gmail.com, firstname=margad, password=margad123, confirmPassword=margad, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:30:19,949 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4004 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 18:30:19,951 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 18:30:19,953 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 18:30:25,578 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 18:30:27,399 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 7.756 seconds (JVM running for 980.725)
-2019-04-25 18:30:34,345 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margaderdene@gmail.com, firstname=margad, password=margad123, confirmPassword=margad, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:30:39,587 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margaderdene@gmail.com, firstname=margad, password=margad123, confirmPassword=margad, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:30:58,873 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4004 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
-2019-04-25 18:30:58,875 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
-2019-04-25 18:30:58,876 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-04-25 18:31:04,247 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
-2019-04-25 18:31:06,024 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 7.296 seconds (JVM running for 1019.349)
-2019-04-25 18:31:49,921 INFO com.burger.controller.UserController [http-nio-8443-exec-5] Register Request User(id=null, username=margad@gmail.com, firstname=marg, password=margad, confirmPassword=maradd, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:34:09,160 INFO com.burger.controller.UserController [http-nio-8443-exec-10] Register Request User(id=null, username=margaad@gmail.com, firstname=margad, password=margad, confirmPassword=mmfdfdf, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:35:00,184 INFO com.burger.controller.UserController [http-nio-8443-exec-5] Register Request User(id=null, username=margad@gmail.com, firstname=margad, password=fsdkfsjfkd, confirmPassword=dfksjdfsf, createdAt=null, updatedAt=null, order=[], roles=null)
-2019-04-25 18:42:51,210 INFO com.burger.controller.UserController [http-nio-8443-exec-6] Register Request User(id=null, username=margad@gmail.com, firstname=margad, password=maefsdfsdf, confirmPassword=dkfjsdlkjfakdff, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 16:50:09,712 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5628 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 16:50:09,724 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 16:50:09,726 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 16:50:26,799 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 16:50:32,737 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 24.688 seconds (JVM running for 29.097)
+2019-04-29 16:50:53,172 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 16:51:08,518 INFO com.burger.controller.UserController [http-nio-8443-exec-4] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 17:29:47,233 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2500 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 17:29:47,243 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 17:29:47,245 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 17:54:19,816 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5856 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 17:54:19,824 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 17:54:19,826 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 17:54:35,436 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 17:54:40,334 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 21.386 seconds (JVM running for 23.933)
+2019-04-29 17:55:15,002 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 17:55:22,890 INFO com.burger.controller.UserController [http-nio-8443-exec-4] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 17:58:10,536 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4048 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 17:58:10,545 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 17:58:10,547 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 17:58:27,516 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 17:58:30,389 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 20.734 seconds (JVM running for 22.994)
+2019-04-29 17:59:26,657 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 17:59:31,616 INFO com.burger.controller.UserController [http-nio-8443-exec-4] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 18:05:13,933 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3360 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:05:13,948 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:05:13,950 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 18:07:36,845 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1632 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:07:36,863 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:07:36,865 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 18:23:17,892 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3120 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:23:17,901 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:23:17,903 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 18:25:59,548 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5656 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:25:59,564 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:25:59,567 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 18:31:23,176 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2640 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:31:23,183 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:31:23,185 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 18:38:12,825 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 416 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 18:38:12,835 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 18:38:12,837 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:09:12,146 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1044 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:09:12,180 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:09:12,183 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:13:05,631 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5400 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:13:05,640 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:13:05,642 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:13:22,245 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:14:17,514 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2344 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:14:17,524 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:14:17,527 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:14:31,326 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:18:15,194 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5888 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:18:15,210 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:18:15,213 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:18:31,373 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:19:33,557 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1504 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:19:33,563 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:19:33,565 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:19:43,756 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:22:53,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5752 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:22:53,712 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:22:53,714 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:23:03,360 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:23:38,182 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3856 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:23:38,190 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:23:38,192 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:23:46,796 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:29:48,901 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4236 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:29:48,911 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:29:48,915 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:31:24,650 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3068 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:31:24,679 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:31:24,682 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:32:20,482 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3956 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:32:20,493 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:32:20,498 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:34:25,704 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4364 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:34:25,712 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:34:25,715 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:39:04,894 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 6064 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:39:04,900 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:39:04,902 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:41:44,991 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 228 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:41:45,033 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:41:45,034 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:44:56,803 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5860 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:44:56,810 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:44:56,812 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:46:26,258 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5652 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:46:26,266 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:46:26,269 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:48:06,923 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4024 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:48:06,929 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:48:06,932 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:57:58,128 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 676 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:57:58,140 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:57:58,142 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 19:58:08,725 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 19:58:12,489 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 15.188 seconds (JVM running for 17.393)
+2019-04-29 19:59:48,347 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3932 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 19:59:48,357 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 19:59:48,358 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:00:08,755 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:00:12,480 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 25.143 seconds (JVM running for 27.491)
+2019-04-29 20:02:20,319 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:02:26,080 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:06:49,906 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5164 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:06:49,924 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:06:49,926 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:07:03,148 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:07:07,589 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.695 seconds (JVM running for 21.322)
+2019-04-29 20:07:16,141 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:07:20,710 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:11:56,869 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3212 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:11:56,880 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:11:56,882 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:12:10,813 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:12:14,306 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.842 seconds (JVM running for 21.676)
+2019-04-29 20:12:26,043 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:12:30,302 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:16:15,316 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1724 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:16:15,325 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:16:15,328 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:16:32,306 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:16:37,009 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 22.965 seconds (JVM running for 25.913)
+2019-04-29 20:16:46,824 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:16:50,814 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:18:13,154 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2148 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:18:13,164 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:18:13,166 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:18:26,606 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:18:30,407 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.269 seconds (JVM running for 20.86)
+2019-04-29 20:18:45,179 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:18:49,816 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:19:51,545 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2304 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:19:51,555 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:19:51,557 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:20:04,391 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:20:08,026 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 17.457 seconds (JVM running for 19.264)
+2019-04-29 20:20:18,969 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:20:25,151 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:22:27,469 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5176 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:22:27,480 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:22:27,483 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:22:43,548 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:22:46,877 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 20.852 seconds (JVM running for 23.914)
+2019-04-29 20:22:54,429 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:22:58,686 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:24:12,995 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 472 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:24:13,004 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:24:13,007 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:24:26,359 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:24:59,858 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5056 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:24:59,864 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:24:59,866 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:25:09,745 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:25:12,441 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 13.363 seconds (JVM running for 15.528)
+2019-04-29 20:25:37,667 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:25:42,649 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:26:30,246 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1656 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:26:30,257 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:26:30,259 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:26:46,765 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:26:50,256 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 21.309 seconds (JVM running for 23.95)
+2019-04-29 20:27:12,003 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:27:15,818 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:32:24,908 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5308 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:32:24,918 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:32:24,920 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:32:36,934 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:32:40,861 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 16.924 seconds (JVM running for 19.451)
+2019-04-29 20:33:12,387 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:33:15,987 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:35:46,652 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 1812 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:35:46,662 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:35:46,664 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:36:35,511 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5252 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:36:35,520 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:36:35,522 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:37:23,867 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2208 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:37:23,876 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:37:23,878 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:37:35,957 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:38:21,935 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2488 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:38:21,944 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:38:21,946 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:38:33,551 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:40:31,959 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4040 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:40:31,969 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:40:31,972 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:41:22,963 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4112 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:41:22,978 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:41:22,981 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:42:07,947 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4716 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:42:07,956 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:42:07,958 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:42:22,649 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:42:25,849 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.869 seconds (JVM running for 21.092)
+2019-04-29 20:42:34,569 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:42:39,606 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:46:57,051 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 4716 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:46:57,052 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:46:57,053 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:48:10,705 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 3304 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:48:10,725 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:48:10,727 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:48:25,543 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:48:30,575 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 20.821 seconds (JVM running for 23.359)
+2019-04-29 20:48:42,682 INFO com.burger.controller.UserController [http-nio-8443-exec-1] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 20:48:47,498 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)
+2019-04-29 20:50:25,515 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 2900 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 20:50:25,526 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 20:50:25,530 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 20:50:37,508 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 20:50:39,267 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 15.074 seconds (JVM running for 17.655)
+2019-04-29 22:43:44,867 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting BurgerBuilderApplication on Margad with PID 5860 (E:\Development\eclipse-workspace\burger-builder\target\classes started by Margad-Erdene in E:\Development\eclipse-workspace\burger-builder)
+2019-04-29 22:43:44,914 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+2019-04-29 22:43:44,916 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-04-29 22:43:59,385 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtAuthenticationFilter' configured for use
+2019-04-29 22:44:02,844 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started BurgerBuilderApplication in 18.98 seconds (JVM running for 21.616)
+2019-04-29 22:44:52,713 INFO com.burger.controller.UserController [http-nio-8443-exec-2] Register Request User(id=null, username=margad@gmail.com, firstname=margad-erdene, password=Golomt123, confirmPassword=Golomt123, createdAt=null, updatedAt=null, order=[], roles=null)
+2019-04-29 22:45:02,060 INFO com.burger.controller.UserController [http-nio-8443-exec-3] Login Request LoginRequest(username=margad@gmail.com, password=Golomt123)

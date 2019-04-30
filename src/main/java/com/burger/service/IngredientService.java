@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.burger.data.IngredientRepository;
+import com.burger.domain.Ingredient;
 
 @Service
 public class IngredientService {
@@ -31,4 +32,7 @@ public class IngredientService {
 		return ingInitNumbers;
 	}
 
+	public Ingredient getIngredientByName(String name) {
+		return ingredientRepository.findByName(name);
+	}
 }

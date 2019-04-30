@@ -44,10 +44,13 @@ public class User implements UserDetails {
 	@NotBlank(message = "Username is required")
 	@Column(unique = true)
 	private String username;
+
 	@NotBlank(message = "First name is required")
 	private String firstname;
+
 	@NotBlank(message = "Password field is required")
 	private String password;
+
 	@Transient
 	private String confirmPassword;
 	private Date createdAt;
@@ -64,7 +67,7 @@ public class User implements UserDetails {
 	}
 
 	// OneToMany with Order
-	@OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.EAGER, mappedBy = "user", orphanRemoval = true)
+	@OneToMany(cascade = CascadeType.REFRESH, fetch = FetchType.LAZY, mappedBy = "user", orphanRemoval = true)
 	private List<Order> order = new ArrayList<>();
 
 	@ManyToMany

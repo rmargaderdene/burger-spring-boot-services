@@ -7,5 +7,5 @@ import com.burger.domain.Ingredient;
 
 @Repository
 public interface IngredientRepository extends CrudRepository<Ingredient, Long> {
-
+	Ingredient findByName(String name);
 }

@@ -18,4 +18,4 @@ publicApiUrl: /api/public/**
 jwtSecretKey: SecretKeyToGenJWTs
 tokePrefix: 
 headerString: Authorization
-expirationTime: 300_000     
+expirationTime: 600_000     

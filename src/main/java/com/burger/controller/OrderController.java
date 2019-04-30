@@ -1,6 +1,5 @@
 package com.burger.controller;
 
-import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.security.Principal;
 
 import javax.validation.Valid;
@@ -17,6 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.burger.domain.Order;
+import com.burger.requests.OrderRequest;
+import com.burger.responses.OrderSaveResponse;
 import com.burger.service.OrderService;
 import com.burger.validation.MapValidationErrorService;
 
@@ -32,14 +33,14 @@ public class OrderController {
 	private OrderService orderService;
 
 	@PostMapping("")
-	public ResponseEntity<?> addOrder(@Valid @RequestBody Order order, BindingResult result, Principal principal)
-			throws UserPrincipalNotFoundException {
+	public ResponseEntity<?> addOrder(@Valid @RequestBody OrderRequest orderRequest, BindingResult result,
+			Principal principal) throws Exception {
 		ResponseEntity<?> errorMap = mapValidationErrorService.mapValidationService(result);
 		if (errorMap != null)
 			return errorMap;
 
-		Order newOrder = orderService.saveOrder(order, principal.getName());
-		return new ResponseEntity<Order>(newOrder, HttpStatus.CREATED);
+		OrderSaveResponse newOrder = orderService.saveOrder(orderRequest, principal.getName());
+		return new ResponseEntity<OrderSaveResponse>(newOrder, HttpStatus.CREATED);
 	}
 
 	@GetMapping("")

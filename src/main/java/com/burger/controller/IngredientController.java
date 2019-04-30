@@ -6,9 +6,11 @@ import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.burger.domain.Ingredient;
 import com.burger.service.IngredientService;
 
 @RestController
@@ -27,5 +29,10 @@ public class IngredientController {
 	@GetMapping("/numbers")
 	public Map<String, Integer> getInitialNumbers(Principal principal) {
 		return ingredientService.fetchInitNumbers();
+	}
+
+	@GetMapping("name/{name}")
+	public Ingredient getIngredientByName(Principal principal, @PathVariable String name) {
+		return ingredientService.getIngredientByName(name);
 	}
 }
